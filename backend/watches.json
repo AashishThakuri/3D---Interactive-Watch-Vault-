@@ -1,0 +1,672 @@
+[
+  {
+    "title": "Titan Edge Ceramic",
+    "price": "$185",
+    "image_url": "/watches/watch-000.png",
+    "product_url": "https://www.titan.co.in/product/titan-edge-ceramic",
+    "brand": "Titan",
+    "type": "Dress",
+    "primary_color": "black",
+    "primary_color_hex": "#1a1a1a"
+  },
+  {
+    "title": "Citizen Quartz Gold",
+    "price": "$220",
+    "image_url": "/watches/watch-001.png",
+    "product_url": "https://www.citizenwatch.com",
+    "brand": "Citizen",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#d4a843"
+  },
+  {
+    "title": "Chronograph Rose Gold",
+    "price": "$350",
+    "image_url": "/watches/watch-002.png",
+    "product_url": "#",
+    "brand": "Unknown",
+    "type": "Chronograph",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#b76e79"
+  },
+  {
+    "title": "Rolex Day-Date Green Diamond",
+    "price": "$48,500",
+    "image_url": "/watches/watch-003.png",
+    "product_url": "https://www.rolex.com/watches/day-date",
+    "brand": "Rolex",
+    "type": "Luxury",
+    "primary_color": "green",
+    "primary_color_hex": "#2d6a3f"
+  },
+  {
+    "title": "Casio Classic Ladies LTP",
+    "price": "$35",
+    "image_url": "/watches/watch-004.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#c9a84c"
+  },
+  {
+    "title": "Casio AQ-230A Vintage",
+    "price": "$55",
+    "image_url": "/watches/watch-005.png",
+    "product_url": "https://www.casio.com/products/watches/vintage/aq-230a",
+    "brand": "Casio",
+    "type": "Vintage",
+    "primary_color": "silver",
+    "primary_color_hex": "#c0c0c0"
+  },
+  {
+    "title": "Casio LTP-V007L Square",
+    "price": "$40",
+    "image_url": "/watches/watch-006.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "brown",
+    "primary_color_hex": "#6b4226"
+  },
+  {
+    "title": "Gucci G-Timeless Black",
+    "price": "$980",
+    "image_url": "/watches/watch-007.png",
+    "product_url": "https://www.gucci.com/watches/g-timeless",
+    "brand": "Gucci",
+    "type": "Luxury",
+    "primary_color": "black",
+    "primary_color_hex": "#1c1c1c"
+  },
+  {
+    "title": "Patek Philippe Nautilus 5711R",
+    "price": "$125,000",
+    "image_url": "/watches/watch-008.png",
+    "product_url": "https://www.patek.com/en/collection/nautilus/5711-1R-001",
+    "brand": "Patek Philippe",
+    "type": "Luxury",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#b76e50"
+  },
+  {
+    "title": "Casio MTP-B145D Blue Square",
+    "price": "$65",
+    "image_url": "/watches/watch-009.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "blue",
+    "primary_color_hex": "#1a2a5c"
+  },
+  {
+    "title": "Orient Quartz Oval Vintage",
+    "price": "$120",
+    "image_url": "/watches/watch-010.png",
+    "product_url": "https://www.orient-watch.com",
+    "brand": "Orient",
+    "type": "Vintage",
+    "primary_color": "gold",
+    "primary_color_hex": "#c9a84c"
+  },
+  {
+    "title": "Casio LTP-1234 Rectangular Gold",
+    "price": "$42",
+    "image_url": "/watches/watch-011.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#b8942e"
+  },
+  {
+    "title": "Tudor 1926 Moonphase",
+    "price": "$3,800",
+    "image_url": "/watches/watch-012.png",
+    "product_url": "https://www.tudorwatch.com/en/watches/1926",
+    "brand": "Tudor",
+    "type": "Luxury",
+    "primary_color": "champagne",
+    "primary_color_hex": "#d4b896"
+  },
+  {
+    "title": "French Connection Rose Gold Mesh",
+    "price": "$95",
+    "image_url": "/watches/watch-013.png",
+    "product_url": "https://www.frenchconnection.com",
+    "brand": "French Connection",
+    "type": "Fashion",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#d4a08c"
+  },
+  {
+    "title": "Cartier Santos Dumont Rose Gold",
+    "price": "$7,650",
+    "image_url": "/watches/watch-014.png",
+    "product_url": "https://www.cartier.com/en-us/watches/santos-de-cartier",
+    "brand": "Cartier",
+    "type": "Luxury",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#c5956e"
+  },
+  {
+    "title": "Casio LTP-VT01G Blue Dial Gold",
+    "price": "$55",
+    "image_url": "/watches/watch-015.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "blue",
+    "primary_color_hex": "#1a2a6c"
+  },
+  {
+    "title": "Titan Black Multifunction Mesh",
+    "price": "$145",
+    "image_url": "/watches/watch-016.png",
+    "product_url": "https://www.titan.co.in",
+    "brand": "Titan",
+    "type": "Dress",
+    "primary_color": "black",
+    "primary_color_hex": "#1a1a1a"
+  },
+  {
+    "title": "Rolex Cellini Classic Gold",
+    "price": "$15,200",
+    "image_url": "/watches/watch-017.png",
+    "product_url": "https://www.rolex.com/watches/cellini",
+    "brand": "Rolex",
+    "type": "Luxury",
+    "primary_color": "gold",
+    "primary_color_hex": "#c9a84c"
+  },
+  {
+    "title": "Chanel BOY·FRIEND Rose Gold",
+    "price": "$12,800",
+    "image_url": "/watches/watch-018.png",
+    "product_url": "https://www.chanel.com/watches/boyfriend",
+    "brand": "Chanel",
+    "type": "Luxury",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#c5956e"
+  },
+  {
+    "title": "Seiko Rectangular Gold Classic",
+    "price": "$280",
+    "image_url": "/watches/watch-019.png",
+    "product_url": "https://www.seikowatches.com",
+    "brand": "Seiko",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#b8942e"
+  },
+  {
+    "title": "Tissot PRX Chronograph Ice Blue",
+    "price": "$675",
+    "image_url": "/watches/watch-020.png",
+    "product_url": "https://www.tissotwatches.com/en-us/collection/tissot-prx",
+    "brand": "Tissot",
+    "type": "Chronograph",
+    "primary_color": "blue",
+    "primary_color_hex": "#87ceeb"
+  },
+  {
+    "title": "Fossil Jacqueline Rose Gold Navy",
+    "price": "$135",
+    "image_url": "/watches/watch-021.png",
+    "product_url": "https://www.fossil.com/en-us/products/jacqueline",
+    "brand": "Fossil",
+    "type": "Fashion",
+    "primary_color": "white",
+    "primary_color_hex": "#f5f5f5"
+  },
+  {
+    "title": "Patek Philippe Golden Ellipse",
+    "price": "$32,000",
+    "image_url": "/watches/watch-022.png",
+    "product_url": "https://www.patek.com/en/collection/golden-ellipse",
+    "brand": "Patek Philippe",
+    "type": "Luxury",
+    "primary_color": "gold",
+    "primary_color_hex": "#c9a84c"
+  },
+  {
+    "title": "Orient Bambino Automatic",
+    "price": "$245",
+    "image_url": "/watches/watch-023.png",
+    "product_url": "https://www.orient-watch.com/collections/bambino",
+    "brand": "Orient",
+    "type": "Classic",
+    "primary_color": "white",
+    "primary_color_hex": "#f0ece4"
+  },
+  {
+    "title": "Casio Ladies Two-Tone Bracelet",
+    "price": "$38",
+    "image_url": "/watches/watch-024.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "silver",
+    "primary_color_hex": "#c0c0c0"
+  },
+  {
+    "title": "Vacheron Constantin Patrimony",
+    "price": "$22,500",
+    "image_url": "/watches/watch-025.png",
+    "product_url": "https://www.vacheron-constantin.com/en/watches/patrimony",
+    "brand": "Vacheron Constantin",
+    "type": "Luxury",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#c5956e"
+  },
+  {
+    "title": "Citizen Eco-Drive Gold",
+    "price": "$275",
+    "image_url": "/watches/watch-026.png",
+    "product_url": "https://www.citizenwatch.com/eco-drive",
+    "brand": "Citizen",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#d4a843"
+  },
+  {
+    "title": "Piaget Polo S Diamond Rose Gold",
+    "price": "$38,500",
+    "image_url": "/watches/watch-027.png",
+    "product_url": "https://www.piaget.com/watches/piaget-polo",
+    "brand": "Piaget",
+    "type": "Luxury",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#c5956e"
+  },
+  {
+    "title": "Sternglas Naos Bauhaus",
+    "price": "$290",
+    "image_url": "/watches/watch-028.png",
+    "product_url": "https://www.sternglas.com/naos",
+    "brand": "Sternglas",
+    "type": "Minimalist",
+    "primary_color": "white",
+    "primary_color_hex": "#ffffff"
+  },
+  {
+    "title": "Rolex Daytona Gold Red",
+    "price": "$65,000",
+    "image_url": "/watches/watch-029.png",
+    "product_url": "https://www.rolex.com/watches/cosmograph-daytona",
+    "brand": "Rolex",
+    "type": "Chronograph",
+    "primary_color": "gold",
+    "primary_color_hex": "#d4a843"
+  },
+  {
+    "title": "Rolex Day-Date Malachite President",
+    "price": "$52,000",
+    "image_url": "/watches/watch-030.png",
+    "product_url": "https://www.rolex.com/watches/day-date",
+    "brand": "Rolex",
+    "type": "Luxury",
+    "primary_color": "green",
+    "primary_color_hex": "#2d6a3f"
+  },
+  {
+    "title": "Titan Rose Gold Chronograph",
+    "price": "$165",
+    "image_url": "/watches/watch-031.png",
+    "product_url": "https://www.titan.co.in",
+    "brand": "Titan",
+    "type": "Chronograph",
+    "primary_color": "white",
+    "primary_color_hex": "#f5f0e8"
+  },
+  {
+    "title": "Titan Raga Mother of Pearl",
+    "price": "$120",
+    "image_url": "/watches/watch-032.png",
+    "product_url": "https://www.titan.co.in/product/raga",
+    "brand": "Titan",
+    "type": "Fashion",
+    "primary_color": "silver",
+    "primary_color_hex": "#d8e8e8"
+  },
+  {
+    "title": "Frederique Constant Carree Rose Gold",
+    "price": "$1,450",
+    "image_url": "/watches/watch-033.png",
+    "product_url": "https://frederiqueconstant.com/collections/classics-carree",
+    "brand": "Frederique Constant",
+    "type": "Classic",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#c5956e"
+  },
+  {
+    "title": "Zenith Chronomaster Sport El Primero",
+    "price": "$9,200",
+    "image_url": "/watches/watch-034.png",
+    "product_url": "https://www.zenith-watches.com/en/collections/chronomaster",
+    "brand": "Zenith",
+    "type": "Chronograph",
+    "primary_color": "silver",
+    "primary_color_hex": "#c0c0c0"
+  },
+  {
+    "title": "Titan Two-Tone Blue Dial",
+    "price": "$130",
+    "image_url": "/watches/watch-035.png",
+    "product_url": "https://www.titan.co.in",
+    "brand": "Titan",
+    "type": "Dress",
+    "primary_color": "blue",
+    "primary_color_hex": "#1a2a5c"
+  },
+  {
+    "title": "Bestwin Silver Minimal",
+    "price": "$45",
+    "image_url": "/watches/watch-036.png",
+    "product_url": "#",
+    "brand": "Bestwin",
+    "type": "Fashion",
+    "primary_color": "silver",
+    "primary_color_hex": "#c8c8c8"
+  },
+  {
+    "title": "Olivia Burton Burgundy Rectangular",
+    "price": "$110",
+    "image_url": "/watches/watch-037.png",
+    "product_url": "https://www.oliviaburton.com",
+    "brand": "Olivia Burton",
+    "type": "Fashion",
+    "primary_color": "burgundy",
+    "primary_color_hex": "#6b1c2a"
+  },
+  {
+    "title": "Sternglas Hamburg Blue Bauhaus",
+    "price": "$310",
+    "image_url": "/watches/watch-038.png",
+    "product_url": "https://www.sternglas.com/hamburg",
+    "brand": "Sternglas",
+    "type": "Minimalist",
+    "primary_color": "white",
+    "primary_color_hex": "#f5f5f5"
+  },
+  {
+    "title": "Poedagar Teal PRX-Style",
+    "price": "$55",
+    "image_url": "/watches/watch-039.png",
+    "product_url": "#",
+    "brand": "Poedagar",
+    "type": "Fashion",
+    "primary_color": "teal",
+    "primary_color_hex": "#2a8a7a"
+  },
+  {
+    "title": "Seiko SWR053 Rectangular Classic",
+    "price": "$195",
+    "image_url": "/watches/watch-040.png",
+    "product_url": "https://www.seikowatches.com",
+    "brand": "Seiko",
+    "type": "Classic",
+    "primary_color": "white",
+    "primary_color_hex": "#ffffff"
+  },
+  {
+    "title": "DressBerry Rose Gold Crystal",
+    "price": "$35",
+    "image_url": "/watches/watch-041.png",
+    "product_url": "#",
+    "brand": "DressBerry",
+    "type": "Fashion",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#b76e79"
+  },
+  {
+    "title": "Casio AQ-230A Green Analog-Digital",
+    "price": "$50",
+    "image_url": "/watches/watch-042.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Vintage",
+    "primary_color": "green",
+    "primary_color_hex": "#6b8f3c"
+  },
+  {
+    "title": "Junghans Chronoscope Form C",
+    "price": "$2,100",
+    "image_url": "/watches/watch-043.png",
+    "product_url": "https://www.junghans.de/en/junghans-watches/watches/chronoscope",
+    "brand": "Junghans",
+    "type": "Chronograph",
+    "primary_color": "white",
+    "primary_color_hex": "#f0f0f0"
+  },
+  {
+    "title": "Gucci G-Timeless Two-Tone Gold",
+    "price": "$1,050",
+    "image_url": "/watches/watch-044.png",
+    "product_url": "https://www.gucci.com/watches/g-timeless",
+    "brand": "Gucci",
+    "type": "Luxury",
+    "primary_color": "silver",
+    "primary_color_hex": "#d0d0d0"
+  },
+  {
+    "title": "Rolex Datejust 41 Green Jubilee",
+    "price": "$11,500",
+    "image_url": "/watches/watch-045.png",
+    "product_url": "https://www.rolex.com/watches/datejust",
+    "brand": "Rolex",
+    "type": "Luxury",
+    "primary_color": "green",
+    "primary_color_hex": "#3a7a5c"
+  },
+  {
+    "title": "Fossil Neutra Chronograph Cream",
+    "price": "$155",
+    "image_url": "/watches/watch-046.png",
+    "product_url": "https://www.fossil.com/en-us/products/neutra-chronograph",
+    "brand": "Fossil",
+    "type": "Chronograph",
+    "primary_color": "cream",
+    "primary_color_hex": "#f5f0e0"
+  },
+  {
+    "title": "Titan Ladies Two-Tone Rose Gold",
+    "price": "$95",
+    "image_url": "/watches/watch-047.png",
+    "product_url": "https://www.titan.co.in",
+    "brand": "Titan",
+    "type": "Classic",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#d4a08c"
+  },
+  {
+    "title": "Fastrack Brown Minimalist",
+    "price": "$55",
+    "image_url": "/watches/watch-048.png",
+    "product_url": "https://www.fastrack.in",
+    "brand": "Fastrack",
+    "type": "Fashion",
+    "primary_color": "brown",
+    "primary_color_hex": "#6b4226"
+  },
+  {
+    "title": "Casio LTP-VT01 Green Leather",
+    "price": "$48",
+    "image_url": "/watches/watch-049.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "green",
+    "primary_color_hex": "#3a5a30"
+  },
+  {
+    "title": "Longines DolceVita Diamond Blue",
+    "price": "$2,800",
+    "image_url": "/watches/watch-050.png",
+    "product_url": "https://www.longines.com/watches/dolcevita",
+    "brand": "Longines",
+    "type": "Luxury",
+    "primary_color": "silver",
+    "primary_color_hex": "#c0c0c0"
+  },
+  {
+    "title": "Sonata Gold Square Bracelet",
+    "price": "$45",
+    "image_url": "/watches/watch-051.png",
+    "product_url": "https://www.sonatawatches.in",
+    "brand": "Sonata",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#d4a843"
+  },
+  {
+    "title": "Tissot PRX Rose Gold Silver",
+    "price": "$395",
+    "image_url": "/watches/watch-052.png",
+    "product_url": "https://www.tissotwatches.com/en-us/collection/tissot-prx",
+    "brand": "Tissot",
+    "type": "Sport",
+    "primary_color": "silver",
+    "primary_color_hex": "#e8e0d8"
+  },
+  {
+    "title": "Titan Edge Rectangle Black",
+    "price": "$175",
+    "image_url": "/watches/watch-053.png",
+    "product_url": "https://www.titan.co.in/product/titan-edge",
+    "brand": "Titan",
+    "type": "Dress",
+    "primary_color": "black",
+    "primary_color_hex": "#1a1a1a"
+  },
+  {
+    "title": "Casio LTP-1094E Ladies Silver",
+    "price": "$30",
+    "image_url": "/watches/watch-054.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "silver",
+    "primary_color_hex": "#c0c0c0"
+  },
+  {
+    "title": "Timex Waterbury Chronograph",
+    "price": "$175",
+    "image_url": "/watches/watch-055.png",
+    "product_url": "https://www.timex.com/waterbury",
+    "brand": "Timex",
+    "type": "Chronograph",
+    "primary_color": "white",
+    "primary_color_hex": "#f5f5f5"
+  },
+  {
+    "title": "Casio LTP-1095 Gold Ladies",
+    "price": "$32",
+    "image_url": "/watches/watch-056.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#c9a84c"
+  },
+  {
+    "title": "Orient Sun & Moon Automatic",
+    "price": "$380",
+    "image_url": "/watches/watch-057.png",
+    "product_url": "https://www.orient-watch.com/collections/sun-and-moon",
+    "brand": "Orient",
+    "type": "Classic",
+    "primary_color": "white",
+    "primary_color_hex": "#f0ece4"
+  },
+  {
+    "title": "Casio LTP Ladies Gold Tan",
+    "price": "$28",
+    "image_url": "/watches/watch-058.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "gold",
+    "primary_color_hex": "#b8942e"
+  },
+  {
+    "title": "Raymond Weil Toccata Blue",
+    "price": "$895",
+    "image_url": "/watches/watch-059.png",
+    "product_url": "https://www.raymond-weil.com/en/watches/toccata",
+    "brand": "Raymond Weil",
+    "type": "Classic",
+    "primary_color": "blue",
+    "primary_color_hex": "#2c4a7c"
+  },
+  {
+    "title": "French Connection Rose Gold Bracelet",
+    "price": "$85",
+    "image_url": "/watches/watch-060.png",
+    "product_url": "https://www.frenchconnection.com",
+    "brand": "French Connection",
+    "type": "Fashion",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#d4a08c"
+  },
+  {
+    "title": "Casio LTP Ladies Silver Black",
+    "price": "$28",
+    "image_url": "/watches/watch-061.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Classic",
+    "primary_color": "white",
+    "primary_color_hex": "#f5f5f5"
+  },
+  {
+    "title": "Casio MTP-M305D Moonphase Square",
+    "price": "$85",
+    "image_url": "/watches/watch-062.png",
+    "product_url": "https://www.casio.com",
+    "brand": "Casio",
+    "type": "Dress",
+    "primary_color": "white",
+    "primary_color_hex": "#f0ece4"
+  },
+  {
+    "title": "Seiko Essentials Rectangular Steel",
+    "price": "$265",
+    "image_url": "/watches/watch-063.png",
+    "product_url": "https://www.seikowatches.com",
+    "brand": "Seiko",
+    "type": "Classic",
+    "primary_color": "silver",
+    "primary_color_hex": "#d0d0d0"
+  },
+  {
+    "title": "Cartier Baignoire Diamond Gold",
+    "price": "$18,500",
+    "image_url": "/watches/watch-064.png",
+    "product_url": "https://www.cartier.com/en-us/watches/baignoire",
+    "brand": "Cartier",
+    "type": "Luxury",
+    "primary_color": "gold",
+    "primary_color_hex": "#c9a84c"
+  },
+  {
+    "title": "Patek Philippe Calatrava White",
+    "price": "$28,000",
+    "image_url": "/watches/watch-065.png",
+    "product_url": "https://www.patek.com/en/collection/calatrava",
+    "brand": "Patek Philippe",
+    "type": "Luxury",
+    "primary_color": "white",
+    "primary_color_hex": "#f0ece4"
+  },
+  {
+    "title": "Donna Mae Rose Gold Minimalist",
+    "price": "$65",
+    "image_url": "/watches/watch-066.png",
+    "product_url": "#",
+    "brand": "Donna Mae",
+    "type": "Fashion",
+    "primary_color": "rose gold",
+    "primary_color_hex": "#d4a08c"
+  }
+]
