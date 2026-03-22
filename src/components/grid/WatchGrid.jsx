@@ -8,7 +8,6 @@ import { Canvas } from "@react-three/fiber";
 import { useTexture } from "@react-three/drei";
 import * as THREE from "three";
 import { Leva } from "leva";
-// --- REAL DATA IMPORT ---
 import watches from "../../../backend/watches.json";
 import MiniMap from "../MiniMap";
 import { DEFAULT_CONFIG, CONFIG } from "./gridConfig";
@@ -21,13 +20,12 @@ import Header from "../Header";
 import { AnimatedBackground } from "../AnimatedBackground";
 import "../HoloCardMaterial"; // Registers <holoCardMaterial /> with R3F
 
-// --- PRELOAD ALL TEXTURES ---
-// This ensures all watch images are cached before switching collections
+// Preload textures
 watches.forEach((watch) => {
     useTexture.preload(watch.image_url);
 });
 
-// --- MAIN EXPORT ---
+
 export default function WatchGrid() {
     const [zoomTarget, setZoomTarget] = useState(null);
     const [initialZoom] = useState(DEFAULT_CONFIG.zoomOut);
@@ -108,7 +106,7 @@ export default function WatchGrid() {
         return [all, luxury, sport, budget];
     }, []);
 
-    // --- Grid Stack State ---
+    // Grid layers
     const [gridLayers, setGridLayers] = useState(() => [
         {
             id: "init",

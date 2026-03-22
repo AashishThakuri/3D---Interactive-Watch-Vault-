@@ -12,7 +12,7 @@ import { CONFIG } from "./gridConfig";
 import { rigState } from "./gridState";
 import { CloseButton } from "../CloseButton";
 
-// --- OPTIMIZED COMPONENT: WATCH TILE ---
+
 export function WatchTile({
     data,
     index,
@@ -81,7 +81,7 @@ export function WatchTile({
     useFrame((state, delta) => {
         // OPTIMIZATION 1: If sleeping or ref missing, stop immediately.
         if (!ref.current || isSleep.current) return;
-        // --- 0. Filter Animation ---
+        // Filter animation
         easing.damp(
             animatedPos.current,
             "x",
@@ -118,13 +118,13 @@ export function WatchTile({
             ref.current.visible = false;
             return;
         }
-        // --- 1. Stagger Logic ---
+        // Stagger logic
         const now = Date.now();
         const timeSinceTrigger = now - transitionStartTime;
         const staggerDelay = data.randomDelay || 0;
         const canTransition = timeSinceTrigger > staggerDelay;
 
-        // --- 2. Calculate Targets ---
+        // Calculate targets
         let targetTransitionOpacity = 1.0;
         let targetTransitionZ = 0;
         const normalizedY =
@@ -155,10 +155,10 @@ export function WatchTile({
                 targetTransitionY = 0;
             }
         }
-        // --- 3. Base Position ---
+        // Base position
         const x = animatedPos.current.x + rigState.current.x;
         const y = animatedPos.current.y + rigState.current.y;
-        // --- 4. Dynamic Culling ---
+        // Dynamic culling
         const currentCull =
             CONFIG.cullDistance * (rigState.zoom / 8);
         const isPositionVisible =
@@ -191,7 +191,7 @@ export function WatchTile({
             return;
         }
         ref.current.visible = true;
-        // --- 5. Curvature & Zoom ---
+        // Curvature & zoom
         const isZoomedIn = rigState.zoom <= CONFIG.zoomIn + 0.5;
         const maxZoom = CONFIG.zoomOut || 50;
         const zoomRatio = isZoomedIn
@@ -224,7 +224,7 @@ export function WatchTile({
                 CONFIG.rotationStrength *
                 rotationIntensity;
         }
-        // --- 6. Interaction State ---
+        // Interaction state
         const isFocusMode = rigState.activeId !== null;
         const isActive = rigState.activeId === index;
         const isHovered = hovered && interactive;
@@ -257,7 +257,7 @@ export function WatchTile({
             filterOpacity.current;
         const combinedScale =
             interactionScale * filterScale.current;
-        // --- 7. Apply Animations ---
+        // Apply animations
         easing.damp(
             ref.current.scale,
             "x",

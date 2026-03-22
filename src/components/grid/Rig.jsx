@@ -5,7 +5,7 @@ import { easing } from "maath";
 import { CONFIG } from "./gridConfig";
 import { rigState } from "./gridState";
 
-// --- COMPONENT: RIG ---
+
 // Controls the camera. Moved OUT of GridCanvas so it is persistent.
 export function Rig({ gridW, gridH }) {
     const { camera, gl } = useThree();

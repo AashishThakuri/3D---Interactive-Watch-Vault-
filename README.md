@@ -1,26 +1,24 @@
 # Chrono Vault
 
-A premium 3D watch browsing experience built by **Aashish Thakuri**. Explore curated collections of luxury timepieces in an interactive spherical grid with smooth animations, brand filtering, and cinematic zoom controls.
+Premium 3D watch browsing experience by **Aashish Thakuri**.
 
 ## Features
 
-- **3D Spherical Grid** — Watches arranged in a curved sphere with dynamic curvature
-- **Cinematic Entrance** — Staggered fly-in animation after loading screen
-- **Brand Filtering** — Dynamic filters based on actual brands in each collection
-- **Collection Switching** — All, Luxury, Sport, Under $500 categories
-- **Color Filtering** — Filter watches by dial color with minimap
-- **Watch Crown Close Button** — Custom watch-mechanism inspired UI
-- **Dark Glass Navigation** — Chrono Nav bar with serif typography
-- **Responsive** — Works on mobile, tablet, and desktop
+- 3D spherical grid with dynamic curvature
+- Cinematic entrance animations
+- Dynamic brand filtering per collection
+- Collection switching (All, Luxury, Sport, Under $500)
+- Color filtering with minimap
+- Custom watch-inspired close button
+- Dark glass Chrono Nav bar
+- Fully responsive
 
 ## Stack
 
-- **Next.js 16** (Pages Router)
-- **React 19**
-- **React Three Fiber + Drei** — 3D rendering and helpers
-- **Framer Motion** — UI animations
-- **Tailwind CSS v4**
-- **Leva** — Debug controls
+- Next.js 16, React 19
+- React Three Fiber + Drei
+- Framer Motion
+- Tailwind CSS v4
 
 ## Getting Started
 
@@ -35,39 +33,11 @@ Open [http://localhost:3000](http://localhost:3000).
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start development server |
+| `npm run dev` | Dev server |
 | `npm run build` | Production build |
-| `npm run lint` | Run ESLint |
-| `npm run format` | Format with Prettier |
-
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── grid/              # 3D grid internals
-│   │   ├── WatchGrid.jsx  # Main orchestrator
-│   │   ├── WatchTile.jsx  # Individual 3D watch tile
-│   │   ├── GridCanvas.jsx # Grid layout + time-sliced mounting
-│   │   ├── Rig.jsx        # Camera controls (drag/zoom)
-│   │   ├── gridState.js   # Shared state + helpers
-│   │   └── gridConfig.js  # Grid configuration
-│   ├── GridUI.jsx         # Chrono Nav control bar
-│   ├── MiniMap.jsx        # Navigation minimap
-│   ├── Header.jsx         # Top header (Chrono Vault branding)
-│   ├── CloseButton.jsx    # Watch-crown close button
-│   ├── RemotionBackground.jsx # Animated background
-│   └── HoloCardMaterial.js # Custom shader material
-├── pages/
-│   ├── index.js           # Entry point
-│   └── _document.js       # HTML preloader
-└── styles/                # Global CSS
-```
+| `npm run lint` | ESLint |
+| `npm run format` | Prettier |
 
 ## Author
 
 **Aashish Thakuri**
-
-## License
-
-MIT

@@ -2,9 +2,7 @@ import React, { useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CONFIG } from "./grid/gridConfig";
 
-/**
- * CHRONO NAV — A watch-complication inspired navigation bar.
- */
+// Chrono Nav - watch-inspired navigation bar
 
 const springTransition = {
   type: "spring",
@@ -279,7 +277,7 @@ export function UnifiedControlBar({
   );
 }
 
-// ─── Crown-Styled Zoom Button ─────────────────────────────────────────
+// Crown Zoom Button
 function CrownButton({ onClick, icon, label }) {
   return (
     <motion.button
@@ -337,7 +335,7 @@ function CrownButton({ onClick, icon, label }) {
   );
 }
 
-// ─── Engraved Divider (like watch dial hour markers) ───────────────────
+// Engraved Divider
 function EngravedDivider() {
   return (
     <motion.div
@@ -356,7 +354,7 @@ function EngravedDivider() {
   );
 }
 
-// ─── Chrono Tab (Collection Selector) ──────────────────────────────────
+// Chrono Tab
 function ChronoTab({ children, isActive, onClick, icon }) {
   return (
     <motion.button
@@ -409,7 +407,7 @@ function ChronoTab({ children, isActive, onClick, icon }) {
   );
 }
 
-// ─── Brand Filter Chip ─────────────────────────────────────────────────
+// Brand Filter Chip
 function BrandChip({ children, isActive, onClick, layoutGroup = "default" }) {
   return (
     <motion.button

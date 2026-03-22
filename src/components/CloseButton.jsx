@@ -2,17 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { Html } from "@react-three/drei";
 import { useThree } from "@react-three/fiber";
 
-/**
- * CHRONO DISMISS v2 — An ultra-premium watch-complication inspired close mechanism.
- * 
- * Features:
- * - Triple-layer rotating bezels (outer, middle counter-rotating, inner)
- * - Tourbillon-style cage that rotates the entire X mechanism
- * - Minute repeater hammer that "strikes" on hover
- * - Moonphase-inspired glow cycle on the center jewel
- * - Particle burst on click dismissal
- * - Guilloche-pattern engraved inner ring
- */
+// Watch-inspired close button
 export function CloseButton({ isActive, position, onClose }) {
   const { gl } = useThree();
   const [shouldShow, setShouldShow] = useState(false);

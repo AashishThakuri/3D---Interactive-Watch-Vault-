@@ -4,7 +4,7 @@ import { extend } from "@react-three/fiber";
 import vertexShader from "@/shaders/holocard.vert";
 import fragmentShader from "@/shaders/holocard.frag";
 
-// --- HOLOGRAPHIC CARD SHADER MATERIAL ---
+// Holographic card shader
 const HoloCardMaterial = shaderMaterial(
   {
     uTime: 0,

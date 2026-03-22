@@ -1,9 +1,6 @@
 import React from 'react';
 
-/**
- * AnimatedBackground — Full-screen CSS animated watch background
- * Created by Aashish Thakuri
- */
+// Animated background with floating watch image
 export const AnimatedBackground = ({ isZoomedIn }) => {
     return (
         <>

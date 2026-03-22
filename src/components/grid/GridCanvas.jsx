@@ -4,7 +4,7 @@ import { CONFIG } from "./gridConfig";
 import { EMPTY_COLORS, matchesFilter, calculateGridDimensions } from "./gridState";
 import { WatchTile } from "./WatchTile";
 
-// --- OPTIMIZED COMPONENT: GRID CANVAS ---
+
 // Renders a single set of items with Time-Sliced mounting
 
 // Helper to generate a circular packed grid centered at 0,0
@@ -100,7 +100,7 @@ export function GridCanvas({
             filteredGridDims: filteredDims,
         };
     }, [items, filter, colorFilter, gridVisible]);
-    // --- TIME-SLICED MOUNTING ---
+    // Time-sliced mounting
     const [mountedCount, setMountedCount] = useState(
         gridVisible ? 0 : items.length
     );

@@ -1,7 +1,7 @@
 import * as THREE from "three";
 import { CONFIG } from "./gridConfig";
 
-// --- GLOBAL STATE ---
+
 export const rigState = {
     target: new THREE.Vector3(0, 2, 0),
     current: new THREE.Vector3(0, 2, 0),
@@ -11,7 +11,7 @@ export const rigState = {
     activeId: null,
 };
 
-// --- HELPER: Grid Dimensions ---
+
 export const calculateGridDimensions = (count) => {
     if (count === 0) return { width: 0, height: 0 };
     // Estimate the radius of the circle needed to hold 'count' items
@@ -31,7 +31,7 @@ export const calculateGridDimensions = (count) => {
 // Stable empty array to avoid unnecessary re-renders
 export const EMPTY_COLORS = [];
 
-// --- HELPER: Check if item matches filter ---
+
 export const matchesFilter = (item, filter, colorFilter = EMPTY_COLORS) => {
     // Check type filter (brand-based for watches)
     let matchesType = true;

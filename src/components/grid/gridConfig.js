@@ -1,4 +1,4 @@
-// --- CONFIGURATION ---
+// Grid config
 // Default values - will be overridden by controls
 export const DEFAULT_CONFIG = {
   gridCols: 8,
