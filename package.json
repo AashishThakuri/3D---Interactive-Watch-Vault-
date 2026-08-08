@@ -1,6 +1,7 @@
 {
   "name": "watch-finder",
   "version": "0.1.0",
+  "description": "An immersive 3D watch gallery where horology meets digital art.",
   "private": true,
   "author": "Aashish Thakuri",
   "scripts": {

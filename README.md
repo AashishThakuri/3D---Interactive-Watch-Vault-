@@ -1,26 +1,31 @@
 # Chrono Vault
 
-Premium 3D watch browsing experience by **Aashish Thakuri**.
+**An immersive 3D watch gallery where horology meets digital art.**
 
-## Features
+Chrono Vault is an experimental web showcase that turns a curated collection of timepieces into a cinematic, explorable canvas. Watches float across a curved spatial grid, responding to movement, zoom, and selection with fluid transitions and holographic detail. It is designed as a visual experience first: part digital exhibition, part interface study, and part tribute to the craft of watchmaking.
 
-- 3D spherical grid with dynamic curvature
-- Cinematic entrance animations
-- Dynamic brand filtering per collection
-- Collection switching (All, Luxury, Sport, Under $500)
-- Color filtering with minimap
-- Custom watch-inspired close button
-- Dark glass Chrono Nav bar
-- Fully responsive
+## Experience
 
-## Stack
+- Explore 67 curated watch visuals in an interactive 3D gallery
+- Move through a spherical grid with depth, perspective, and responsive motion
+- Browse Luxury, Sport, Everyday, and Under $500 collections
+- Filter each collection by its most represented watch brands
+- Select a timepiece for a focused, cinematic presentation
+- Navigate with a watch-inspired glass control bar and visual minimap
+- Enjoy a responsive experience across desktop and mobile screens
 
-- Next.js 16, React 19
-- React Three Fiber + Drei
-- Framer Motion
-- Tailwind CSS v4
+## Creative direction
 
-## Getting Started
+Chrono Vault pairs the precision of mechanical watches with the atmosphere of a dark museum installation. Subtle typography, warm metallic accents, glass surfaces, custom shaders, and restrained motion create a space that feels more like an interactive artwork than a product catalogue.
+
+## Built with
+
+- Next.js 16 and React 19
+- React Three Fiber, Drei, and Three.js
+- Framer Motion and use-gesture
+- GLSL shaders and Tailwind CSS 4
+
+## Run locally
 
 ```bash
 npm install
@@ -29,15 +34,13 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Scripts
+For a production check:
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Dev server |
-| `npm run build` | Production build |
-| `npm run lint` | ESLint |
-| `npm run format` | Prettier |
+```bash
+npm run build
+npm start
+```
 
 ## Author
 
-**Aashish Thakuri**
+Designed and developed by **Aashish Thakuri** as a creative front-end showcase.
