@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Chrono Vault — Premium Watch Finder</title>
+        <title>Chrono Vault</title>
         <meta name="description" content="Explore our curated collection of luxury, sport, and everyday timepieces in an immersive 3D experience" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Aashish Thakuri" />
