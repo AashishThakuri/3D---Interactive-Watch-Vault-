@@ -19,6 +19,7 @@ export default function HomePage() {
         <meta name="author" content="Aashish Thakuri" />
         <meta name="theme-color" content="#050505" />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://chrono-vault-green.vercel.app" />
         <meta property="og:title" content="Chrono Vault — An Immersive 3D Watch Gallery" />
         <meta
           property="og:description"
@@ -26,6 +27,7 @@ export default function HomePage() {
         />
         <meta property="og:image" content="/bg-watch.png" />
         <meta name="twitter:card" content="summary_large_image" />
+        <link rel="canonical" href="https://chrono-vault-green.vercel.app" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <WatchGrid />

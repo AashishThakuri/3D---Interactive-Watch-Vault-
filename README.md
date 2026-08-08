@@ -4,6 +4,8 @@
 
 Chrono Vault is an experimental web showcase that turns a curated collection of timepieces into a cinematic, explorable canvas. Watches float across a curved spatial grid, responding to movement, zoom, and selection with fluid transitions and holographic detail. It is designed as a visual experience first: part digital exhibition, part interface study, and part tribute to the craft of watchmaking.
 
+**[Enter the live gallery](https://chrono-vault-green.vercel.app)**
+
 ## Experience
 
 - Explore 67 curated watch visuals in an interactive 3D gallery
